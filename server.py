@@ -8,8 +8,8 @@ import time
 
 app = FastAPI()
 
-#model_name="facebook/opt-125m",  # small model for CPU
-model_name="mistralai/Mistral-7B-Instruct-v0.2",  # large model for GPU
+#model_name="facebook/opt-125m"  # small model for CPU
+model_name="mistralai/Mistral-7B-Instruct-v0.2"  # large model for GPU
 
 llm = LLM(
     dtype="float16",

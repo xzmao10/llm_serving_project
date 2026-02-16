@@ -20,8 +20,7 @@ def load_model():
 
     llm = LLM(
         model=model_name,
-        dtype="float16",
-        attention_type="default"
+        dtype="float16"
     )
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)

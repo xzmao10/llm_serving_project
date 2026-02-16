@@ -9,7 +9,7 @@ import time
 app = FastAPI()
 
 #model_name="facebook/opt-125m"  # small model for CPU
-model_name="Qwen/Qwen2.5-Coder-7B-Instruct"  # large model for GPU
+model_name="meta-llama/Llama-3.2-3B-Instruct"  # large model for GPU
 
 llm = None
 tokenizer = None

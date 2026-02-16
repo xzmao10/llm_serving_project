@@ -20,7 +20,8 @@ def load_model():
 
     llm = LLM(
         model=model_name,
-        dtype="float16"
+        dtype="float16",
+        device="cuda"
     )
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
